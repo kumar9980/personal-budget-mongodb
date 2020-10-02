@@ -1,0 +1,36 @@
+{
+    "myBudget" : [
+        {
+            "title" : "Eat out",
+            "budget" : 30
+        },
+        {
+            "title" : "Rent",
+            "budget" : 350
+        },
+        {
+            "title" : "Groceries",
+            "budget" : 90
+        },
+        {
+            "title" : "Insurance",
+            "budget" : 150
+        },
+        {
+            "title" : "Utilities",
+            "budget" : 60
+        },
+        {
+            "title" : "Furniture",
+            "budget" : 263
+        },
+        {
+            "title" : "Car service",
+            "budget" : 100
+        },
+        {
+            "title" : "House repairs",
+            "budget" : 143
+        }
+    ]
+}

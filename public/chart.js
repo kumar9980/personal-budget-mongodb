@@ -5,7 +5,11 @@ var dataSource = {
             '#ffcd56',
             '#ff6384',
             '#36a2eb',
-            '#fd6b19'
+            '#fd6b19',
+            '#1A5276',
+            '#1ABC9C',
+            '#BB8FCE',
+            '#7B7D7D'
         ]
     }],
 
