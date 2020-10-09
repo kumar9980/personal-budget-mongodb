@@ -7,7 +7,7 @@ var dataSource1= {
 
 
 
-axios.get('/d3')
+axios.get('http://localhost:3000/d3')
     .then(function (res){
         console.log(res);
         for (var i=0; i< res.data.myd3domain.length; i++){
