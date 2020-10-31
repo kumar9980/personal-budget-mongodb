@@ -1,13 +1,10 @@
 const mongoose = require('mongoose');
 
-function validateColor(color) { 
-    if (color.length == 7) {
-        if (color.indexOf('#') == 0) {
-            return true;
-        }
-        else{
-            return false;
-        } 
+function colorValidation(color) { 
+    var pattern =/[#0-9a-fA-F]/;
+    var check = pattern.test(color);
+    if (color.indexOf('#') == 0 && check) {
+        return true;
     }
     else{
         return false;
@@ -27,8 +24,10 @@ const budgetSchema = new mongoose.Schema({
     },
     color: {
         type: String,
+        minlength: 7,
+        maxlength: 7,
         required : true,
-        validate: [validateColor, 'Not a valid color. Color value should be in Hexadecimal']
+        validate: [colorValidation, 'Not valid, Color value should be in Hexadecimal value with # and 6 digit HEXA value']
     }
 },{collection: 'budget_data_collection'})
 
