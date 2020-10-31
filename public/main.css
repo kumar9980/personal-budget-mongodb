@@ -6,13 +6,14 @@ body {
     font-size: 10px;
     font-family: Tahoma, Arial;
     
-    height: 550px;
+    height: 700px;
 }
 
 svg {
-	width: 100%;
-    height: 100%;
+	width: 50%;
+    height: 50%;
     position: center;
+    overflow : visible;
 }
 
 path.slice{
@@ -96,9 +97,9 @@ header.hero h2 {
 }
 
 .bottom {
-    height: 50px;
+    height: 40px;
     background-color: #b4c6f0;
-    padding: 40px;
+    padding: 60px;
 }
 
 .center {
@@ -116,7 +117,7 @@ header.hero h2 {
 .button {
     border: none;
     color: blueviolet;
-    padding: 15px 32px;
+    padding: 0 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
